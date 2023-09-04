@@ -28,6 +28,13 @@
         android:title="@string/status_bar_title"
         android:summary="@string/status_bar_system_icons_summary">
         <intent android:action="com.android.settings.action.STATUS_BAR_TUNER" /> 
+        
+           <org.zen.labs.preference.SecureSettingSwitchPreference
+               android:key="media_controls_always_show_time"
+               android:title="@string/media_controls_always_show_time_title"
+               android:summary="@string/media_controls_always_show_time_summary"
+               android:defaultValue="false" />
+               
     </Preference>
     
     </PreferenceCategory>

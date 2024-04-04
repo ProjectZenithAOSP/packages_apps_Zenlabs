@@ -16,6 +16,13 @@
                android:title="@string/less_boring_heads_up_title"
                android:summary="@string/less_boring_heads_up_summary"
                android:defaultValue="false" />
+               
+          <org.zen.labs.preference.SystemSettingSwitchPreference
+               android:key="lockscreen_battery_info"
+               android:title="@string/lockscreen_battery_info_title"
+               android:summary="@string/lockscreen_battery_info_summary"
+               android:defaultValue="true" />
+     
     </PreferenceCategory>
     
 </PreferenceScreen>

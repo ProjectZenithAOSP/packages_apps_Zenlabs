@@ -10,7 +10,12 @@
     
     <PreferenceCategory
     android:title="@string/general_category">
-    
-    </PreferenceCategory>
 
+          <org.zen.labs.preference.SystemSettingSwitchPreference
+               android:key="less_boring_heads_up"
+               android:title="@string/less_boring_heads_up_title"
+               android:summary="@string/less_boring_heads_up_summary"
+               android:defaultValue="false" />
+    </PreferenceCategory>
+    
 </PreferenceScreen>

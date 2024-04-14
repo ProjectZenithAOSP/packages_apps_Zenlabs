@@ -18,7 +18,7 @@
                android:defaultValue="true" />
                
         <!-- Volume panel to left -->
-        <org.zen.labs.preferences.SecureSettingSwitchPreference
+        <org.zen.labs.preference.SecureSettingSwitchPreference
             android:key="volume_panel_on_left"
             android:title="@string/volume_panel_on_left_title"
             android:summary="@string/volume_panel_on_left_summary"
@@ -30,7 +30,7 @@
 		    android:summary="@string/idle_manager_summary"
 		    android:defaultValue="false" />
 		
-        <org.zen.labs.preferences.SystemSettingSwitchPreference
+        <org.zen.labs.preference.SystemSettingSwitchPreference
             android:key="pie_animation_style"
             android:title="@string/pie_animation_style_title"
             android:summary="@string/pie_animation_style_summary"

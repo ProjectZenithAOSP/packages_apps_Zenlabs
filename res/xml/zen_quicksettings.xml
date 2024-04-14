@@ -11,25 +11,25 @@
     <PreferenceCategory
     android:title="@string/general_category">
     
-        <org.zen.labs.preferences.SystemSettingSwitchPreference
+        <org.zen.labs.preference.SystemSettingSwitchPreference
             android:key="show_fourg_icon"
             android:title="@string/show_fourg_icon_title"
             android:summary="@string/show_fourg_icon_summary"
             android:defaultValue="false"/>
                 
-        <org.zen.labs.preferences.SystemSettingSwitchPreference
+        <org.zen.labs.preference.SystemSettingSwitchPreference
             android:key="roaming_indicator_icon"
             android:title="@string/roaming_indicator_icon_title"
             android:summary="@string/roaming_indicator_icon_summary"
             android:defaultValue="false"/>
             
         <!-- QS Tiles haptic -->
-        <org.zen.labs.preferences.SystemSettingSwitchPreference
+        <org.zen.labs.preference.SystemSettingSwitchPreference
             android:key="qs_tiles_haptic_feedback"
             android:title="@string/qs_tiles_haptic_feedback_title"
             android:defaultValue="true" />
             
-        <org.zen.labs.preferences.SystemSettingSwitchPreference
+        <org.zen.labs.preference.SystemSettingSwitchPreference
             android:key="qs_footer_data_usage"
             android:title="@string/qs_footer_datausage_title"
             android:summary="@string/qs_footer_datausage_summary"

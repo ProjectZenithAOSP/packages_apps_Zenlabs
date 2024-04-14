@@ -11,31 +11,31 @@
     <PreferenceCategory
     android:title="@string/general_category">
     
-         <org.zen.labs.preferences.SystemSettingSwitchPreference
+         <org.zen.labs.preference.SystemSettingSwitchPreference
             android:key="secure_lockscreen_qs_disabled"
             android:title="@string/disable_qs_title"
             android:summary="@string/disable_qs_summary"
             android:defaultValue="false" />
             
-        <org.zen.labs.preferences.GlobalSettingSwitchPreference
+        <org.zen.labs.preference.GlobalSettingSwitchPreference
             android:key="wake_when_plugged_or_unplugged"
             android:title="@string/wakeup_when_plugged_unplugged_title"
             android:summary="@string/wakeup_when_plugged_unplugged_summary"
             android:defaultValue="true" />
             
-        <org.zen.labs.preferences.SystemSettingSwitchPreference
+        <org.zen.labs.preference.SystemSettingSwitchPreference
             android:key="enable_ripple_effect"
             android:title="@string/enable_fingerprint_ripple_effect_title"
             android:summary="@string/enable_fingerprint_ripple_effect_summary"
             android:defaultValue="true" />
             
-        <org.zen.labs.preferences.SystemSettingSwitchPreference
+        <org.zen.labs.preference.SystemSettingSwitchPreference
             android:key="fp_success_vibrate"
             android:title="@string/fp_success_vibrate_title"
             android:summary="@string/fp_success_vibrate_summary"
             android:defaultValue="true" />
             
-        <org.zen.labs.preferences.SystemSettingSwitchPreference
+        <org.zen.labs.preference.SystemSettingSwitchPreference
             android:key="fp_error_vibrate"
             android:title="@string/fp_error_vibrate_title"
             android:summary="@string/fp_error_vibrate_summary"

@@ -11,12 +11,12 @@
     <PreferenceCategory
     android:title="@string/general_category">
     
-        <org.zen.labs.preferences.SystemSettingSwitchPreference
+        <org.zen.labs.preference.SystemSettingSwitchPreference
             android:key="back_gesture_haptic"
             android:title="@string/back_gesture_haptic_title"
             android:defaultValue="true" />
             
-        <org.zen.labs.preferences.SystemSettingSwitchPreference
+        <org.zen.labs.preference.SystemSettingSwitchPreference
             android:key="volume_rocker_wake"
             android:title="@string/volume_rocker_wake_title"
             android:summary="@string/volume_rocker_wake_summary"

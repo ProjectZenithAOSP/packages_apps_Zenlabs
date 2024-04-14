@@ -42,7 +42,7 @@
  import com.android.settingslib.search.Indexable;
  import com.android.settingslib.search.SearchIndexable;
 
- import org.zen.labs.preferences.SecureSettingListPreference;
+ import org.zen.labs.preference.SecureSettingListPreference;
 
  import java.util.ArrayList;
  import java.util.Date;

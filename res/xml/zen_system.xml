@@ -29,7 +29,13 @@
 		    android:title="@string/idle_manager_title"
 		    android:summary="@string/idle_manager_summary"
 		    android:defaultValue="false" />
-		    
+		
+        <org.zen.labs.preferences.SystemSettingSwitchPreference
+            android:key="pie_animation_style"
+            android:title="@string/pie_animation_style_title"
+            android:summary="@string/pie_animation_style_summary"
+            android:defaultValue="false" />
+            
     </PreferenceCategory>
     
         <PreferenceCategory

@@ -71,4 +71,7 @@
     <string name="status_bar_title">Status bar</string>
     <string name="status_bar_system_icons_summary">Control which status bar icons are shown</string>
     
+
+    <!-- Back haptic feedback -->
+    <string name="back_gesture_haptic_title">Back haptic feedback</string>
 </resources>

@@ -82,4 +82,8 @@
     <!-- Roaming indicator icon -->
     <string name="roaming_indicator_icon_title">Show roaming indicator icon</string>
     <string name="roaming_indicator_icon_summary">Display roaming indicator above signal icon when in roaming mode</string>
+    
+    <!-- Annoying Notifications -->
+    <string name="notification_sound_vib_screen_on_title">Annoying Notifications</string>
+    <string name="notification_sound_vib_screen_on_summary">Play sound and vibration for notifications when screen is on</string>
 </resources>

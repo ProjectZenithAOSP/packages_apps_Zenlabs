@@ -74,4 +74,8 @@
 
     <!-- Back haptic feedback -->
     <string name="back_gesture_haptic_title">Back haptic feedback</string>
+    
+    <!-- 4G icon -->
+    <string name="show_fourg_icon_title">4G icon</string>
+    <string name="show_fourg_icon_summary">Display 4G icon in signal icon instead LTE</string>
 </resources>

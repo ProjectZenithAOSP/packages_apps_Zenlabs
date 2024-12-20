@@ -11,6 +11,12 @@
     <PreferenceCategory
     android:title="@string/general_category">
     
+        <org.zen.labs.preferences.SystemSettingSwitchPreference
+            android:key="show_fourg_icon"
+            android:title="@string/show_fourg_icon_title"
+            android:summary="@string/show_fourg_icon_summary"
+            android:defaultValue="false"/>
+                
     </PreferenceCategory>
 
 </PreferenceScreen>

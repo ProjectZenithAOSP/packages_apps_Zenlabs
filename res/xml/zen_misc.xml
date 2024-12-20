@@ -16,6 +16,13 @@
             android:title="@string/back_gesture_haptic_title"
             android:defaultValue="true" />
             
+        <org.zen.labs.preferences.SystemSettingSwitchPreference
+            android:key="volume_rocker_wake"
+            android:title="@string/volume_rocker_wake_title"
+            android:summary="@string/volume_rocker_wake_summary"
+            android:defaultValue="false"
+            android:disableDependentsState="true" />
+            
     </PreferenceCategory>
 
     <PreferenceCategory

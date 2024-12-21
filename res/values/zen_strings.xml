@@ -122,4 +122,7 @@
     <string name="fingerprint_category">Fingerprint</string>
     <string name="enable_fingerprint_ripple_effect_title">Ripple effect</string>
     <string name="enable_fingerprint_ripple_effect_summary">Show ripple effect on unlock with fingerprint</string>
+
+    <!-- QS Tiles haptic -->
+    <string name="qs_tiles_haptic_feedback_title">Vibrate on touching QS tiles</string>
 </resources>

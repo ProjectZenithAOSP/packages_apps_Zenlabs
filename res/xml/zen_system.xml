@@ -10,17 +10,20 @@
 
     <PreferenceCategory
     android:title="@string/general_category">
-    
-    </PreferenceCategory>
-    
-    <PreferenceCategory
-        android:key="general_category"
-	   android:title="@string/general_category" >
+
           <org.zen.labs.preference.SystemSettingSwitchPreference
                android:key="advanced_reboot"
                android:title="@string/global_actions_advanced_reboot_title"
                android:summary="@string/global_actions_advanced_reboot_summary"
                android:defaultValue="true" />
+               
+        <!-- Volume panel to left -->
+        <org.zen.labs.preferences.SecureSettingSwitchPreference
+            android:key="volume_panel_on_left"
+            android:title="@string/volume_panel_on_left_title"
+            android:summary="@string/volume_panel_on_left_summary"
+            android:defaultValue="false" />
+            
     </PreferenceCategory>
     
         <PreferenceCategory

@@ -23,6 +23,12 @@
             android:summary="@string/roaming_indicator_icon_summary"
             android:defaultValue="false"/>
             
+        <!-- QS Tiles haptic -->
+        <org.zen.labs.preferences.SystemSettingSwitchPreference
+            android:key="qs_tiles_haptic_feedback"
+            android:title="@string/qs_tiles_haptic_feedback_title"
+            android:defaultValue="true" />
+            
     </PreferenceCategory>
 
 </PreferenceScreen>

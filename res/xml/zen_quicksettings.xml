@@ -29,6 +29,12 @@
             android:title="@string/qs_tiles_haptic_feedback_title"
             android:defaultValue="true" />
             
+        <org.zen.labs.preferences.SystemSettingSwitchPreference
+            android:key="qs_footer_data_usage"
+            android:title="@string/qs_footer_datausage_title"
+            android:summary="@string/qs_footer_datausage_summary"
+            android:defaultValue="false" />
+            
     </PreferenceCategory>
 
 </PreferenceScreen>

@@ -38,7 +38,15 @@
         android:entryValues="@array/freeform_launch_mode_values"
         android:defaultValue="0"
         android:summary="%s" />
-        
+
+
+        <!-- Google Play Integrity -->
+        <org.zen.labs.preference.SystemPropertySwitchPreference
+            android:key="persist.sys.pihooks.pi"
+            android:title="@string/pi_spoof_title"
+            android:summary="@string/pi_spoof_summary"
+            android:defaultValue="true" />
+
     </PreferenceCategory>
 
     <PreferenceCategory

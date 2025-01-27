@@ -28,7 +28,17 @@
                android:title="@string/show_clipboard_overlay_title"
                android:summary="@string/show_clipboard_overlay_summary"
                android:defaultValue="true"/>
-               
+
+    <!-- Freeform launch mode -->
+    <org.zen.labs.preferences.SystemSettingListPreference
+        android:key="freeform_launch_mode"
+        android:title="@string/freeform_launch_mode_title"
+        android:dialogTitle="@string/freeform_launch_mode_title"
+        android:entries="@array/freeform_launch_mode_entries"
+        android:entryValues="@array/freeform_launch_mode_values"
+        android:defaultValue="0"
+        android:summary="%s" />
+        
     </PreferenceCategory>
 
     <PreferenceCategory
